@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedButton">
+        <attr name="initialButtonColor" format="color" />
+        <attr name="pressedButtonColor" format="color" />
+    </declare-styleable>
+</resources>

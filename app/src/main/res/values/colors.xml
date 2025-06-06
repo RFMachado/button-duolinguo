@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_select">#26610A</color>
+    <color name="bg_no_select">#E1E6E1</color>
+
+    <color name="text_select">#FFFFFF</color>
+    <color name="text_no_select">#323C32</color>
+
+    <color name="myButtonColor">#6200EE</color>
+    <color name="myPressedButtonColor">#3700B3</color>
+
+    <color name="colorDefaultPrimary">#F7BE1F</color>
+    <color name="colorDefaultShadow">#B58C1A</color>
+
+    <color name="green">#00C853</color> <!-- seu Green -->
+    <color name="shadowColor">#55000000</color> <!-- sua sombra -->
+</resources>
