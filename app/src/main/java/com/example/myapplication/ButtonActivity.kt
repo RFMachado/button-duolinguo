@@ -14,23 +14,7 @@ class ButtonActivity : AppCompatActivity() {
         binding = ActivityButtonBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val shadowSize = 4f // dp
 
-        fun dpToPx(dp: Float): Float {
-            return dp * resources.displayMetrics.density
-        }
-
-        binding.btn.setOnTouchListener { _, event ->
-            when (event.action) {
-                MotionEvent.ACTION_DOWN -> {
-                    binding.btn.translationY = dpToPx(shadowSize)
-                }
-                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    binding.btn.translationY = 0f
-                }
-            }
-            true
-        }
 
     }
 
