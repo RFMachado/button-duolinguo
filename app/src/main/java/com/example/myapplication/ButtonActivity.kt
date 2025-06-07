@@ -1,7 +1,6 @@
 package com.example.myapplication
 
 import android.os.Bundle
-import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.databinding.ActivityButtonBinding
 
@@ -14,9 +13,5 @@ class ButtonActivity : AppCompatActivity() {
         binding = ActivityButtonBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-
     }
-
-
 }
