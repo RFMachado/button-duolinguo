@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="SelectableChip">
-        <attr name="selectedBackgroundColor" format="color"/>
-        <attr name="unselectedBackgroundColor" format="color"/>
-        <attr name="selectedTextColor" format="color"/>
-        <attr name="unselectedTextColor" format="color"/>
+    <declare-styleable name="DuoButton">
+        <attr name="srcCompat" />
     </declare-styleable>
 </resources>
