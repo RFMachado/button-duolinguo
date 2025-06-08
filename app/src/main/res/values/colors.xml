@@ -7,14 +7,12 @@
     <color name="bg_no_select">#E1E6E1</color>
 
     <color name="text_select">#FFFFFF</color>
-    <color name="text_no_select">#323C32</color>
+    <color name="text_no_select">#494949</color>
 
-    <color name="myButtonColor">#6200EE</color>
-    <color name="myPressedButtonColor">#3700B3</color>
+    <color name="button_shadow">#58A700</color>
+    <color name="button_color">#58CC02</color>
 
-    <color name="colorDefaultPrimary">#F7BE1F</color>
-    <color name="colorDefaultShadow">#B58C1A</color>
+    <color name="button_clicked">#58A700</color>
+    <color name="button_disabled">#37464f</color>
 
-    <color name="green">#00C853</color> <!-- seu Green -->
-    <color name="shadowColor">#55000000</color> <!-- sua sombra -->
 </resources>

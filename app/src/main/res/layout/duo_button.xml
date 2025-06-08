@@ -8,28 +8,26 @@
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
     <FrameLayout
-        android:id="@+id/back"
+        android:id="@+id/shadow"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/duolingo_button_bg_shadow"
+        tools:background="@drawable/duolingo_button_bg_shadow"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/btn"
-        app:layout_constraintEnd_toEndOf="@+id/btn"
-        app:layout_constraintBottom_toBottomOf="@+id/btn"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
         android:translationY="2dp"/>
 
     <LinearLayout
-        android:id="@+id/btn"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@drawable/duolingo_button_bg"
+        tools:background="@drawable/duolingo_button_bg"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
         android:gravity="center"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,14 +37,20 @@
             android:id="@+id/label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
             android:includeFontPadding="false"
-            android:text="Button"
-            android:textColor="@color/white" />
+            tools:textColor="@color/white"
+            tools:text="Button" />
 
         <ImageView
             android:id="@+id/icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:importantForAccessibility="no"/>
+            android:importantForAccessibility="no"
+            tools:tint="@color/white"
+            android:visibility="gone"
+            tools:srcCompat="@drawable/ic_arrow_right"
+            tools:visibility="visible"/>
     </LinearLayout>
 </merge>
