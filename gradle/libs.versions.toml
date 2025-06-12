@@ -1,6 +1,5 @@
 [versions]
 agp = "8.10.0"
-duolingobutton = "1.0.0"
 flexbox = "3.0.0"
 kotlin = "2.0.21"
 coreKtx = "1.10.1"
@@ -11,10 +10,10 @@ appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+databindingCommon = "8.10.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-duolingobutton = { module = "in.tilicho.android:duolingobutton", version.ref = "duolingobutton" }
 flexbox = { module = "com.google.android.flexbox:flexbox", version.ref = "flexbox" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -23,6 +22,7 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-databinding-common = { group = "androidx.databinding", name = "databinding-common", version.ref = "databindingCommon" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
