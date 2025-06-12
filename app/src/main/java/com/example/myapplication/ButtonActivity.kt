@@ -12,6 +12,5 @@ class ButtonActivity : AppCompatActivity() {
 
         binding = ActivityButtonBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
     }
 }
